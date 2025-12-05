@@ -2,6 +2,7 @@
   "name": "template-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://melissajillian.github.io/create-react-app-fall2025",
   "dependencies": {
     "@testing-library/cypress": "^10.0.1",
     "@testing-library/jest-dom": "^5.16.5",
