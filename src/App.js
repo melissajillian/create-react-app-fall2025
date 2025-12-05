@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import TestComponent from "./components/TestComponent";
 import {useState} from 'react';
 
 const Comp = () => {
-  return <p>This is a comp component</p>
+  return <p>Let it snow! Let it snow! Let it snow!</p>
 }
 
 function App() {
@@ -15,9 +15,10 @@ function App() {
             <TestComponent />
 
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <p>Melissa has lived in Michigan her whole life.</p>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          The winters can get very cold, but the snow is beautiful. 
         </p>
         <Comp />
         <button
